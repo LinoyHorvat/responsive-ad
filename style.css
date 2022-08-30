@@ -20,10 +20,11 @@ h1 {
 h2 {
     font-size: 15px;
     margin: 0px;
+    font-weight: 600;
 }
 
 .best-value {
-    z-index: 1000;
+    z-index: 100;
     position: absolute;
 }
 
@@ -168,10 +169,38 @@ h2 {
 
 .mobile {
     top: 400px;
+    margin-bottom: 20px;
 }
 
-.best-value-mobile {
-    top: 400px;
+.best-choice-mobile {
+    top: 405px;
+    background-color: #FC5B01;
+    color: white;
+    border-radius: 5px;
+    height: 25px;
+    z-index: 100000000;
+    font-weight: 600;
+    width: 110px;
+}
+
+.triangle {
+    position: absolute;
+    left: -20px;
+    width: 0px;
+    height: 0px;
+    border-left: 0px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #B1490E;
+}
+
+.rectangle {
+    position: absolute;
+    top: -17px;
+    left: -10px;
+    width: 6px;
+    height: 25px;
+    background-color: #FC5B01;
+    z-index: 10000;
 }
 
 .inner-content-mobile {
@@ -201,17 +230,20 @@ h2 {
 
 .text-mobile {
     margin-top: 10px;
-    width: 220px;
+    width: 270px;
     padding: 0px;
 }
 
 .view-deal-btn-mobile {
     margin-top: 10px;
-    padding: 8px 100px px 100px;
+    width: 300px;
+    height: 35px;
+    font-weight: 500;
 }
 
 .view-deal-mobile {
     align-items: center;
+    font-weight: 500;
 }
 
 .show-more-mobile {
@@ -229,9 +261,14 @@ h2 {
     align-self: center;
 }
 
+.mobile-rate {
+    margin-left: 20px;
+}
+
 .rate-mobile {
+    align-self: center;
     font-size: 20px;
     width: 40px;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 0px;
 }
