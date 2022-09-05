@@ -1,0 +1,317 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Inter;
+    color: #55626e;
+    background-color: lightgray;
+}
+
+.best-tag {
+    background-color: #d4eaff;
+    display: flex;
+    align-items: center;
+    padding: 0px 8px;
+    gap: 10.92px;
+    position: absolute;
+    width: 140px;
+    height: 32px;
+    top: 8px;
+    left: 0px;
+    z-index: 10;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.best-text {
+    /* font-family: Inter; */
+    /* font-size: 16px; */
+    /* font-weight: 600; */
+    /* line-height: 22px; */
+    /* letter-spacing: 0.20000000298023224px; */
+    text-align: left;
+    width: 84px;
+    height: 22px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #0b76e0;
+}
+
+.triangle {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #99cdff;
+    z-index: 10;
+}
+
+.container {
+    position: absolute;
+    width: 1024px;
+    height: 176px;
+    left: 10px;
+    top: 25px;
+    background: #ffffff;
+    /* Shadow */
+    box-shadow: 0px 51px 114px rgba(199, 199, 199, 0.15), 0px 15.375px 34.3677px rgba(199, 199, 199, 0.0895633), 0px 6.38599px 14.2746px rgba(199, 199, 199, 0.0605927), 0px 2.30969px 5.16283px rgba(199, 199, 199, 0.0352376);
+    border-radius: 12px;
+}
+
+.container-text {
+    height: inherit;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.tv-img {
+    position: absolute;
+    width: 202px;
+    height: 128px;
+    left: 131px;
+    top: 16px;
+    background-image: url(/img/https___m.media-amazon.com_images_I_51Ryy6VK9ES\ 16.png);
+}
+
+.col2 {
+    position: absolute;
+    left: 357px;
+}
+
+.text-detail {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    /* position: absolute; */
+    width: 277px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    /* Body Large/semi 16px */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    letter-spacing: 0.2px;
+    /* gray/800 - Xtra Bold - Gray */
+    color: #55626e;
+}
+
+.text-sony {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    width: 41px;
+    height: 20px;
+    letter-spacing: 0.2px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    letter-spacing: 0.2px;
+    /* gray/700 - Bold Gray */
+    color: #626e79;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.btn-50-off {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 4px;
+    /* position: absolute; */
+    width: 70px;
+    height: 24px;
+    left: 0px;
+    top: 80px;
+    /* Blue/300 - Blue */
+    background: #55a0ea;
+    border-radius: 4px;
+    /* text */
+    width: 62px;
+    height: 20px;
+    /* Body Medium/meduim 14px */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    text-align: center;
+    letter-spacing: 0.2px;
+    /* gray/White -Default - 0 */
+    color: #ffffff;
+}
+
+.col3 {
+    position: absolute;
+    left: 663px;
+}
+
+.rate {
+    display: flex;
+    flex-direction: column;
+}
+
+.stars {
+    display: flex;
+}
+
+.rate-text {
+    width: 52px;
+    height: 39px;
+    left: 1111.47px;
+    top: 84.1px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32.8165px;
+    line-height: 120%;
+    /* or 39px */
+    text-align: center;
+    /* gray/800 - Xtra Bold - Gray */
+    color: #55626e;
+}
+
+.col4 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: ; */
+    gap: 20px;
+    left: 761px;
+    width: 177px;
+}
+
+.view-deal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 80px;
+    gap: 12px;
+    width: 264px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    background: #0b76e0;
+    border-radius: 12px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    /* Inside auto layout */
+    /* flex: none; */
+    /* order: 0; */
+    /* flex-grow: 0; */
+}
+
+.amazon {
+    width: 78.3px;
+    height: 20px;
+    /* Body Medium/regular 14px */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    text-align: right;
+    letter-spacing: 0.2px;
+    /* gray/700 - Bold Gray */
+    color: #626e79;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.show-more-text {
+    width: 88px;
+    height: 20px;
+    /* Body Medium/semi 14px */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    text-align: right;
+    letter-spacing: 0.2px;
+    /* gray/800 - Xtra Bold - Gray */
+    color: #55626e;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.tablet,
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 720px) {
+    body {
+        background-color: lightblue;
+    }
+    .tablet {
+        display: none;
+    }
+    .mobile {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 1074px) {
+    .mobile {
+        display: none;
+    }
+    body {
+        background-color: green;
+    }
+    .btn-50-off {
+        display: none;
+    }
+    .show-more {
+        display: none;
+    }
+    .text-detail {
+        display: none;
+    }
+    .tablet {
+        display: flex;
+    }
+}
