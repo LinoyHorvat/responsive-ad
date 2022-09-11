@@ -234,12 +234,17 @@
             width: 61px;
             padding: 4px 3px;
             font-size: 12px;
+            margin-left: 20px;
         }
         .text-detail {
             font-size: 14px;
+            padding-top: 6px;
+            padding-left: 20px;
         }
         .col4 {
             padding: 28px 0px 0px 0px;
+            align-self: start;
+            padding-left: 20px;
         }
         .view-deal {
             margin-bottom: 16px;
