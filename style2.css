@@ -1,233 +1,351 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nanum+Gothic&family=Open+Sans:wght@300;400&family=Source+Code+Pro:wght@200&display=swap');
-body {
-    padding: 0;
-    margin: 0;
-    font-family: Inter;
-    color: #55626e;
-    background-color: lightgray;
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    /* font */
-    font-size: 16px;
-    letter-spacing: 0.2px;
-    line-height: 140%;
-}
-
-.best-tag {
-    background-color: #d4eaff;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    width: 140px;
-    height: 32px;
-    top: -17px;
-    left: -7px;
-    z-index: 10;
-    border-radius: 0px 8px 8px 0px;
-}
-
-.symbol {
-    padding: 11px 7px;
-}
-
-.best-text {
-    font-weight: 600;
-    color: #0b76e0;
-}
-
-.triangle {
-    position: absolute;
-    left: -7px;
-    top: 15px;
-    width: 0px;
-    height: 0px;
-    border-top: 0 solid transparent;
-    border-bottom: 7px solid transparent;
-    border-right: 7px solid #99cdff;
-    z-index: 10;
-}
-
-.container {
-    position: relative;
-    width: 1024px;
-    height: 176px;
-    background: #ffffff;
-    box-shadow: 0px 51px 114px rgba(199, 199, 199, 0.15), 0px 15.375px 34.3677px rgba(199, 199, 199, 0.0895633), 0px 6.38599px 14.2746px rgba(199, 199, 199, 0.0605927), 0px 2.30969px 5.16283px rgba(199, 199, 199, 0.0352376);
-    border-radius: 12px;
-}
-
-.container-text {
-    display: flex;
-}
-
-.number {
-    padding: 34px 12px;
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 135%;
-    text-transform: capitalize;
-    color: rgba(85, 98, 110, 0.25)
-}
-
-.tv-img {
-    padding: 16px 12px;
-}
-
-.text-detail {
-    font-weight: 600;
-    width: 277px;
-    height: 44px;
-    padding: 16px 0px 0px 12px;
-}
-
-.text-sony {
-    font-size: 14px;
-    font-weight: 500;
-    color: #626e79;
-    padding: 4px 0px 12px 12px;
-}
-
-.btn-50-off {
-    height: 24px;
-    margin-left: 12px;
-    background: #55a0ea;
-    border-radius: 4px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 140%;
-    color: #ffffff;
-    border: none;
-}
-
-.col3 {
-    align-self: center;
-}
-
-.rate {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
-.information-symbol {
-    position: absolute;
-    padding-left: 52px;
-}
-
-.rate-text {
-    font-weight: 700;
-    font-size: 32.8165px;
-    line-height: 120%;
-    text-align: center;
-}
-
-.col4 {
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-left: 45px;
-    padding-top: 65px;
-}
-
-.view-deal {
-    width: 264px;
-    height: 44px;
-    background: #0b76e0;
-    border-radius: 12px;
-    font-weight: 700;
-    line-height: 140%;
-    color: #ffffff;
-    border: none;
-    margin-bottom: 21px;
-}
-
-.amazon {
-    font-weight: 400;
-    font-size: 14px;
-    color: #626e79;
-}
-
-.text {
-    display: flex;
-    justify-content: space-between;
-}
-
-.show-more {
-    display: flex;
-    font-weight: 600;
-    font-size: 14px;
-}
-
-.tablet,
-.mobile {
-    display: none;
-}
-
-@media only screen and (max-width: 720px) {
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nanum+Gothic&family=Open+Sans:wght@300;400&family=Source+Code+Pro:wght@200&display=swap');
     body {
-        background-color: lightblue;
+        padding: 0;
+        margin: 0;
+        font-family: Inter;
+        color: #55626e;
+        background-color: lightgray;
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        /* font */
+        font-size: 16px;
+        letter-spacing: 0.2px;
+        line-height: 140%;
     }
-    .text-detail {
-        display: none;
-    }
+    
     .best-tag {
-        background-color: #FF5C00;
+        background-color: #d4eaff;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        width: 140px;
+        height: 32px;
+        top: -17px;
+        left: -7px;
+        z-index: 10;
+        border-radius: 0px 8px 8px 0px;
     }
-    .triangle {
-        border-right: 10px solid #B04000;
+    
+    .symbol {
+        padding: 11px 7px;
     }
+    
     .best-text {
-        color: white;
+        font-weight: 600;
+        color: #0b76e0;
     }
-    .trophy {}
-    .mobile {
+    
+    .triangle {
+        position: absolute;
+        left: -7px;
+        top: 15px;
+        width: 0px;
+        height: 0px;
+        border-top: 0 solid transparent;
+        border-bottom: 7px solid transparent;
+        border-right: 7px solid #99cdff;
+        z-index: 10;
+    }
+    
+    .container {
+        position: relative;
+        width: 1024px;
+        height: 176px;
+        background: #ffffff;
+        box-shadow: 0px 51px 114px rgba(199, 199, 199, 0.15), 0px 15.375px 34.3677px rgba(199, 199, 199, 0.0895633), 0px 6.38599px 14.2746px rgba(199, 199, 199, 0.0605927), 0px 2.30969px 5.16283px rgba(199, 199, 199, 0.0352376);
+        border-radius: 12px;
+    }
+    
+    .container-text {
         display: flex;
     }
-}
-
-@media only screen and (min-width: 720px) and (max-width: 1074px) {
-    .mobile {
-        display: none;
+    
+    .number {
+        padding: 34px 12px;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 135%;
+        text-transform: capitalize;
+        color: rgba(85, 98, 110, 0.25)
     }
-    body {
-        background-color: green;
-    }
-    .btn-50-off {
-        display: none;
-    }
-    .show-more {
-        display: none;
-    }
-    .text-detail {
-        display: none;
-    }
-    .container {
-        position: absolute;
-        width: 672px;
-        height: 132px;
-    }
+    
     .tv-img {
-        height: 75px;
-        width: 118px;
-        background-size: cover;
+        padding: 16px 12px;
     }
+    
     .text-detail {
+        font-weight: 600;
+        width: 277px;
+        height: 44px;
+        padding: 16px 0px 0px 12px;
+    }
+    
+    .text-sony {
         font-size: 14px;
+        font-weight: 500;
+        color: #626e79;
+        padding: 4px 0px 12px 12px;
+    }
+    
+    .btn-50-off {
+        height: 24px;
+        margin-left: 12px;
+        background: #55a0ea;
+        border-radius: 4px;
         font-weight: 500;
         font-size: 14px;
         line-height: 140%;
+        color: #ffffff;
+        border: none;
     }
-    .text-sony {
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 140%;
+    
+    .col3 {
+        align-self: center;
     }
-    .tablet {
+    
+    .rate {
         display: flex;
+        flex-direction: column;
+        position: relative;
     }
-}
+    
+    .information-symbol {
+        position: absolute;
+        padding-left: 52px;
+    }
+    
+    .rate-text {
+        font-weight: 700;
+        font-size: 32.8165px;
+        line-height: 120%;
+        text-align: center;
+    }
+    
+    .col4 {
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 45px;
+        padding-top: 65px;
+    }
+    
+    .view-deal {
+        width: 264px;
+        height: 44px;
+        background: #0b76e0;
+        border-radius: 12px;
+        font-weight: 700;
+        line-height: 140%;
+        color: #ffffff;
+        border: none;
+        margin-bottom: 21px;
+    }
+    
+    .amazon {
+        font-weight: 400;
+        font-size: 14px;
+        color: #626e79;
+    }
+    
+    .text {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .show-more {
+        display: flex;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    
+    .tablet,
+    .mobile {
+        display: none;
+    }
+    
+    @media only screen and (max-width: 720px) {
+        body {
+            background-color: lightblue;
+        }
+        .container {
+            width: 340px;
+            height: 375px;
+        }
+        .text-detail {
+            display: none;
+        }
+        .best-tag {
+            background-color: #FF5C00;
+        }
+        .triangle {
+            border-right: 10px solid #B04000;
+        }
+        .best-text {
+            color: white;
+        }
+        .number {
+            position: absolute;
+            font-size: 64px;
+            bottom: 336px;
+            right: 24px;
+            padding: 0px;
+        }
+        .container-text {
+            flex-direction: column;
+        }
+        .col1 {
+            display: flex;
+        }
+        .tv-img {
+            height: 101px;
+            width: 160px;
+            margin-left: 90px;
+            margin-top: 42px;
+            padding: 0px;
+        }
+        .stars {
+            width: 40px;
+        }
+        .rate {
+            padding-top: 84px;
+            display: none;
+            width: 38px;
+            padding-left: 21px;
+        }
+        .rate-text {
+            font-size: 24px;
+        }
+        .information-symbol {
+            height: 10px;
+            padding-left: 40px;
+        }
+        .text-sony {
+            display: none;
+            font-weight: 400;
+            padding-left: 150px;
+        }
+        .btn-50-off {
+            display: none;
+            width: 61px;
+            padding: 4px 3px;
+            font-size: 12px;
+        }
+        .text-detail {
+            font-size: 14px;
+        }
+        .col4 {
+            padding: 28px 0px 0px 0px;
+        }
+        .view-deal {
+            margin-bottom: 16px;
+        }
+        .show-more {
+            display: none;
+        }
+        .mobile {
+            display: flex;
+        }
+    }
+    
+    @media only screen and (min-width: 720px) and (max-width: 1074px) {
+        .mobile {
+            display: none;
+        }
+        body {
+            background-color: lightgreen;
+        }
+        .number {
+            position: absolute;
+            font-size: 50px;
+            bottom: 94px;
+            right: 24px;
+            padding: 0px;
+        }
+        .btn-50-off {
+            display: none;
+        }
+        .container {
+            width: 672px;
+            height: 132px;
+        }
+        .best-tag {
+            width: 104px;
+            height: 28px;
+        }
+        .best-text {
+            font-size: 12px;
+        }
+        .symbol {
+            height: 13px;
+        }
+        .triangle {
+            top: 11px;
+        }
+        .tv-img {
+            height: 75px;
+            width: 118px;
+            margin-left: 15px;
+            margin-top: 19px;
+            padding: 0px;
+        }
+        .text-detail {
+            display: none;
+            font-size: 14px;
+            font-weight: 500;
+            padding-top: 12px;
+            width: 224px;
+        }
+        .text-sony {
+            font-weight: 400;
+            font-size: 12px;
+            padding-bottom: 21px;
+        }
+        .show-more {
+            display: none;
+            font-size: 12px;
+            font-weight: 500;
+            padding-left: 12px;
+        }
+        .col3 {
+            width: 20px;
+            margin: 0px;
+            padding: 0px;
+        }
+        .information-symbol {
+            height: 9px;
+            padding-left: 34px;
+        }
+        .rate-text {
+            font-size: 20px;
+        }
+        .stars {
+            width: 49px;
+        }
+        .col4 {
+            padding-top: 48px;
+        }
+        .view-deal {
+            width: 171px;
+            height: 36px;
+            font-size: 14px;
+            margin-bottom: 13px;
+            ;
+        }
+        .text {
+            justify-content: center;
+        }
+        .amazon {
+            font-size: 12px;
+        }
+        .tablet {
+            display: flex;
+        }
+        .tablet {
+            display: flex;
+        }
+    }
