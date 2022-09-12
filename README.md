@@ -1,9 +1,10 @@
 Responsive ad:
 
-desktop view: 
-![desktop view]./(https://github.com/LinoyHorvat/responsive-ad/tree/main/img/desktop.png?raw=true)
-tablet view: 
-
-phone view: 
+Desktop view: 
+![Desktop view](./img/desktop.png)
+Tablet view: 
+![Tablet view](./img/tablet.png))
+Mobile view: 
+![tablet view](./img/mobile.png))
 
 
