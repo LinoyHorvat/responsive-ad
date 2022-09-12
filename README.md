@@ -1,10 +1,10 @@
-Markup :  # Responsive ad: #
+<h1> Responsive ad: </h1>
 
-Markup :  ### Desktop view:  ###
+<h3> Desktop view: </h3>
 ![Desktop view](./img/desktop.png)
-Markup :  ### Tablet view:  ###
+<h3> Tablet view: </h3>
 ![Tablet view](./img/tablet.png)
-Markup :  ### Mobile view:  ###
+<h3> Mobile view: </h3>
 ![Mobile view](./img/mobile.png))
 
 
